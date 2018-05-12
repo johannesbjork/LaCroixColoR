@@ -23,17 +23,21 @@ Choose from 20 different LaCroix falvors--quench your thirst!
 
 ## For continuous palettes
 
-`lacroix_palette("Pamplemousse", n = 25, type = "continuous")`
-
-<img src="example_images/Pamplemousse_continuous50.jpg" width="300">
-
 `lacroix_palette("Pamplemousse", n = 50, type = "continuous")`
 
-<img src="example_images/PassionFruit_continuous.jpg" width="300">
+<img src="example_images/Pamplemousse_continuous.jpg" width="300">
+
+`lacroix_palette("PassionFruit", n = 50, type = "continuous")`
+
+<img src="example_images/PassionFruit_continuous50.jpg" width="300">
 
 `lacroix_palette("PassionFruit", n = 25, type = "continuous")`
 
-<img src="example_images/Pamplemousse_continuous25.png" width="300">
+<img src="example_images/PassionFruit_continuous25.png" width="300">
+
+`lacroix_palette("PassionFruit", n = 10, type = "continuous")`
+
+<img src="example_images/PassionFruit_continuous10.png" width="300">
 
 `lacroix_palette("PeachPear", n = 50, type = "continuous")`
 
