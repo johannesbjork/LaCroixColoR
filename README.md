@@ -49,5 +49,14 @@ Choose from 20 different LaCroix falvors--quench your thirst!
 
 <img src="example_images/paired.jpg" width="300">
 
+## Example plots
+
+Plotting maps using `ggmaps`
+
+`lacroix_palette("Pamplemousse", n = 7, type = "continuous")`
+
+<img src="example_images/ca_map_Pamplemousse.jpg" width="300">
+
+
 
 Contact: Dave Armitage (dave.armitage@gmail.com) & Johannes Bjork (bjork.johannes@gmail.com)
