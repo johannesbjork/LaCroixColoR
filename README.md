@@ -1,6 +1,6 @@
 # LaCroixColoR (beta)
 LaCroix Color Palettes for R. \
-Choose from 20 different LaCroix falvors--quench your thirst!
+Choose from 20 different LaCroix flavors--quench your thirst!
 
 ## Install package
 
