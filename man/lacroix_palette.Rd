@@ -2,8 +2,7 @@
 % Please edit documentation in R/LaCroixColor.R
 \name{lacroix_palette}
 \alias{lacroix_palette}
-\title{A LaCriox color palette generator
-This function allows you to generate color palettes based on LaCriox water flavors.}
+\title{A LaCroix color palette generator}
 \usage{
 lacroix_palette(name, n, type = c("discrete", "continuous", "paired"))
 }
@@ -15,8 +14,7 @@ lacroix_palette(name, n, type = c("discrete", "continuous", "paired"))
 \item{type:}{Either "discrete", "continuous", or "paired".}
 }
 \description{
-A LaCriox color palette generator
-This function allows you to generate color palettes based on LaCriox water flavors.
+This function allows you to generate color palettes based on LaCroix water flavors.
 }
 \examples{
 lacroix_palette()
