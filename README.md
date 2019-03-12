@@ -5,7 +5,7 @@ Choose from 20 different LaCroix flavors--quench your thirst!
 ## Install package
 
 `install.packages("devtools")` \
-`devtools::install_github('LaCroixColoR','johannesbjork')`
+`devtools::install_github("johannesbjork/LaCroixColoR")`
 
 ## For discrete palettes
 
