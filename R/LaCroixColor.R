@@ -4,7 +4,7 @@
 #'
 #' @keywords color palettes
 #' @param n: Number of colors desired If omitted, uses all colours.
-#' @param name: Number of colors desired If omitted, uses all colours.
+#' @param name: Name of color palette (LaCroix flavor) desired.
 #' @param type: Either "discrete", "continuous", or "paired".
 #' @export
 #' @examples
