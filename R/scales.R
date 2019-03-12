@@ -4,7 +4,7 @@
 #' Currently only works with the flavor-specific palettes (not the "paired" palette).
 #'
 #' @keywords color palettes scales
-#' @param name
+#' @param name Name of color palette (LaCroix flavor) desired.
 #' @param discrete Generate a discrete palette? Defaults to \code{FALSE}, aka continuous mapping.
 #' @param ... parameters passed on to \link[ggplot2]{\code{discrete_scale}} (discrete mapping)
 #' or \link[ggplot2]{\code{scale_color_gradientn}} (continuous mapping).
