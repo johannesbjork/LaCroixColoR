@@ -9,7 +9,7 @@ lacroix_palette(name, n, type = c("discrete", "continuous", "paired"))
 \arguments{
 \item{n:}{Number of colors desired If omitted, uses all colours.}
 
-\item{name:}{Number of colors desired If omitted, uses all colours.}
+\item{name:}{Name of color palette (LaCroix flavor) desired.}
 
 \item{type:}{Either "discrete", "continuous", or "paired".}
 }
