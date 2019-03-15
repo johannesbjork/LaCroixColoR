@@ -31,13 +31,13 @@
 #' @export
 
 scale_color_lacroix <- function (name, discrete = FALSE, ...) {
-  if (discrete) {
+  if (discrete==TRUE) {
     discrete_scale(aesthetics = "colour",
                    scale_name = name,
                    palette = lacroix_pal_discrete(name),
                    ...)
   } else {
-    scale_color_gradientn(colours = lacroix_palette(name = name, type = "discrete"), ...)
+    scale_color_gradientn(colours = lacroix_palette(name = name, type = "continuous"), ...)
   }
 }
 
@@ -51,13 +51,13 @@ scale_colour_lacroix <- scale_color_lacroix
 #' @export
 
 scale_fill_lacroix <- function (name, discrete = FALSE, ...) {
-  if (discrete) {
+  if (discrete==TRUE) {
     discrete_scale(aesthetics = "fill",
                    scale_name = name,
                    palette = lacroix_pal_discrete(name),
                    ...)
   } else {
-    scale_fill_gradientn(colours = lacroix_palette(name = name, type = "discrete"), ...)
+    scale_fill_gradientn(colours = lacroix_palette(name = name, type = "continuous"), ...)
   }
 }
 
