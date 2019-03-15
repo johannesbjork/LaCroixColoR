@@ -9,7 +9,7 @@
 \arguments{
 \item{n:}{Number of colors desired If omitted, uses all colours.}
 
-\item{name:}{Number of colors desired If omitted, uses all colours.}
+\item{name:}{Name of color palette (LaCroix flavor) desired.}
 }
 \description{
 Function to print color palettes
